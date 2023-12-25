@@ -1,11 +1,11 @@
 class Select_sort{
-    int size = 1;
+    int size = 0;
     private long[] arr;
     public Select_sort(int maxSize){
         this.arr = new long[maxSize];
     }
     public void insert(long value){
-        arr[size - 1] = value;
+        arr[size] = value;
         size++;
     }
     public void display(){
