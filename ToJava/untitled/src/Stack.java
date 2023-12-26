@@ -56,7 +56,8 @@ class Stack {
         stack.display();
         System.out.println(stack.empty());
         stack.pop();
-        System.out.println(stack.search(1));
+        stack.display();
+        System.out.println(stack.search(1) + "번 인덱스에 존재함");
         System.out.println(stack.search(4));
     }
 
